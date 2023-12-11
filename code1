@@ -1,6 +1,4 @@
-git -version
 git -v
--v
 git status
 git clone https://github.com/mithuns1986/devops-git.git
 cd devops-git/
@@ -10,11 +8,9 @@ touch code1
 git status
 git add code1
 git status
-git status
 git commit -m "first codefile"
 git status
 ls
 cat README.md
 git push
-history
 history|cut -c 8-
